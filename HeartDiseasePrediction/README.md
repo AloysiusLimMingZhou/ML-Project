@@ -73,21 +73,21 @@ After dropping NA: (297, 14)
 
 # 4. Exploratory Data Analysis
 - In this dataset, we have plotted several graphs to analyze the relationship between the variables in the dataset, which are as belows:
-1. Box plot for Resting Blood Pressure with outliers
+1. Box plot for Resting Blood Pressure with outliers\
 ![Resting Blood Pressure box plot with outliers](EDAResults/trestbps_w_outliers.png)
-2. Box plot for Resting Blood Pressure without outliers (p < 95th quartile)
+2. Box plot for Resting Blood Pressure without outliers (p < 95th quartile)]\
 ![Resting Blood Pressure box plot without outliers](EDAResults/trestbps_wo_outliers.png)
-3. Box plot for Cholesterol with outliers
+3. Box plot for Cholesterol with outliers\
 ![Cholesterol box plot with outliers](EDAResults/chol_w_outliers.png)
-4. Box plot for Cholesterol without outliers (5th quartile < p < 95th quartile)
+4. Box plot for Cholesterol without outliers (5th quartile < p < 95th quartile)\
 ![Cholesterol box plot without outliers](EDAResults/chol_wo_outliers.png)
-5. Box plot for Maximum Heart Rate with outliers
+5. Box plot for Maximum Heart Rate with outliers\
 ![Maximum Heart Rate box plot with outliers](EDAResults/thalach_w_outliers.png)
-6. Box plot for Maximum Heart Rate without outliers (5th quartile < p < 95th quartile)
+6. Box plot for Maximum Heart Rate without outliers (5th quartile < p < 95th quartile)\
 ![Maximum Heart Rate box plot without outliers](EDAResults/thalach_wo_outliers.png)
-7. Scatterplot between age against heart disease results
+7. Scatterplot between age against heart disease results\
 ![Scatterplot between age against heart disease target](EDAResults/age_target_scatterplot.png)
-8. Correlation Matrix Heatmap
+8. Correlation Matrix Heatmap\
 ![Correlation Matrix Heatmap](EDAResults/corr_heatmap.png)
 
 # 5. Machine Learning Algorithm Selection
@@ -140,7 +140,7 @@ Recall: 0.7857
 F1: 0.8148
 ROC AUC: 0.9542
 ```
-![Custom Model Loss Curve](ModelResults/CustomLRLossCurve.png)\
+![Custom Model Loss Curve](ModelResults/CustomLRLossCurve.png)
 
 # 6b) Scikit-Learn's Logistic Regression Model
 - In Scikit-Learn's Logistic Regression Model, I have set the solver to be lbfgs, which is the default optimization algorithm, and epochs(iterations) to be 2000. Below is the result of the model's testing metrics against the dataset:
