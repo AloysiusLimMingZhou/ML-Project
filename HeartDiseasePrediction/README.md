@@ -97,7 +97,7 @@ After dropping NA: (297, 14)
 
 # 5a) Comparison between Linear vs Logistic ML Algorithms
 - For Linear Regression, it takes in an input value and predict a continuous value output
-**Linear Regression Formula Breakdown:**
+**Linear Regression Formula Breakdown:**\
 $$
 y = \theta_{1}x_{1}+\theta_{2}x_{2}+...+\theta_{n}x_{n} + b
 $$
@@ -113,7 +113,9 @@ b = Bias
 - So instead of producing a continuous value like in Linear Regression, Logistic Regression produces a probabilistic prediction(proba) between 0 and 1 (i.e. 0.649324...)
 - Thus, using Logistic Regression aligns with our goal in this dataset effectively, as the dataset's target is 0(no heart disease) and 1(has heart disease). By using Logistic Regression to predict a probability value, it shows the model's ability to estimate how likely the patient will get heart disease based on their clinical data. We then convert the probability into class labels by "rounding off" (if proba > 0.5, class label = 1 and vice versa).
 - Logistic Regression Formula Breakdown:\
-$$\frac{1}{1+e^{-(b_{0}+\theta_{1}x_{1}+\theta_{2}x_{2}+...+\theta_{m}x_{m})}}\= \frac{1}{1+e^{-z}}$$
+$$
+\frac{1}{1+e^{-(b_{0}+\theta_{1}x_{1}+\theta_{2}x_{2}+...+\theta_{m}x_{m})}}\= \frac{1}{1+e^{-z}}
+$$
 
 **Where:**\
 z = $y = \theta_{1}x_{1}+\theta_{2}x_{2}+...+\theta_{n}x_{n} + b$\
