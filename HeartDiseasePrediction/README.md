@@ -112,7 +112,7 @@ b = Bias
 - However, it then passes the y value into an activation function like sigmoid, where the function maps the y value into a probabilistic output between 0 and 1.
 - So instead of producing a continuous value like in Linear Regression, Logistic Regression produces a probabilistic prediction(proba) between 0 and 1 (i.e. 0.649324...)
 - Thus, using Logistic Regression aligns with our goal in this dataset effectively, as the dataset's target is 0(no heart disease) and 1(has heart disease). By using Logistic Regression to predict a probability value, it shows the model's ability to estimate how likely the patient will get heart disease based on their clinical data. We then convert the probability into class labels by "rounding off" (if proba > 0.5, class label = 1 and vice versa).
-- Logistic Regression Formula Breakdown:\ 
+- Logistic Regression Formula Breakdown:\
 $$\frac{1}{1+e^{-(b_{0}+\theta_{1}x_{1}+\theta_{2}x_{2}+...+\theta_{m}x_{m})}}\= \frac{1}{1+e^{-z}}$$
 
 **Where:**\
