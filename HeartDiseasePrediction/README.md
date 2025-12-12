@@ -98,7 +98,7 @@ After dropping NA: (297, 14)
 # 5a) Comparison between Linear vs Logistic ML Algorithms
 - For Linear Regression, it takes in an input value and predict a continuous value output
 **Linear Regression Formula Breakdown:**\
-$y = \theta_{1}x_{1}+\theta_{2}x_{2}+...+\theta_{n}x_{n} + b$
+$$y = \theta_{1}x_{1}+\theta_{2}x_{2}+...+\theta_{n}x_{n} + b$$\
 **Where:**\
 y = Actual value\
 x = Value for each feature\
