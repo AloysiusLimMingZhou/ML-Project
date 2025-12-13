@@ -1,6 +1,7 @@
 # Machine Learning Project Detail Rundown
 **This is a project showcase featuring numerous common Machine Learning Projects that has been successfully implemented. For each project, it will cover:**
-1.Data Preprocessing
+
+1. Data Preprocessing
 2. Exploratory Data Analysis (Data Visualisation and Graph Plotting)
 3. Model Training and Testing
 4. Model Performance Result
